@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-
-    <h1>メモ</h1>
+    <header>
+      <h1>メモ作成</h1>
+    </header>
 
     <dialog id="create">
       <div>
@@ -20,11 +21,20 @@
       <button id="change">変更</button>
     </dialog>
 
-    <button id="open">作成</button>
+    <button class="create" id="open">作成</button>
 
     <ul>
     </ul>
 
+    <footer>
+      <p>
+        使用方法<br>
+        作成ボタン：メモを作成します<br>
+        確認ボタン：メモの内容を確認します<br>
+        変更ボタン：メモの内容を変更します<br>
+        消去ボタン：メモを消去します
+      </p>
+    </footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
