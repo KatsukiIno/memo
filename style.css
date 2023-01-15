@@ -1,5 +1,5 @@
 header{
-    display: flex;
+    width: auto;
     background-color: rgb(165, 157, 157);
     text-align: center;
     width: 100%;
@@ -7,12 +7,13 @@ header{
 
 
 footer{
-    display: flex;
+    width: auto;
     background-color: rgb(165, 157, 157);
     text-align: center;
     width: 100%;
     
 }
+
 
 li {
     margin-bottom: 20px;
@@ -58,12 +59,13 @@ textarea{
 }
 
 .create{
-    position: relative;
-    left: 50%;
+    display: flex;
     justify-content: center;
-    left: 300px;
     font-size: 150%;
 }
+
+
+
 
 
 
