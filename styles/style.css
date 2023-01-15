@@ -1,0 +1,71 @@
+header{
+    display: flex;
+    background-color: rgb(165, 157, 157);
+    text-align: center;
+    width: 100%;
+}
+
+
+footer{
+    display: flex;
+    background-color: rgb(165, 157, 157);
+    text-align: center;
+    width: 100%;
+    
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+ul button {
+    font-size: 15px;
+    margin-left: 10px;
+    color: #666;
+}
+
+body{
+    background-color: rgb(158, 245, 245);
+
+}
+
+ul{
+    list-style: none;
+    font-size: 18px;
+}
+
+dialog{
+    width: 50%;
+    height: 50%;
+}
+
+input[type="text"]{
+    font-size: 130%;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em;
+    width: 90%;
+    height: 40px;
+}
+
+textarea{
+    resize: vertical;
+    width: 100%;
+    height: 200px;
+}
+
+.create{
+    position: relative;
+    left: 50%;
+    justify-content: center;
+    left: 300px;
+    font-size: 150%;
+}
+
+
+
+
+

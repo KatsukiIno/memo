@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create memo</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>メモ作成</h1>
+    </header>
+
+    <dialog id="create">
+      <div>
+        <input type="text" placeholder="タイトル" name="item" id="item"><br>
+        <textarea type="text" placeholder="本文" name="item2" id="item2"></textarea>
+      </div>
+      <button id="btn">追加</button>
+      <button id="close">キャンセル</button>
+      <button id="change">変更</button>
+    </dialog>
+
+    <button class="create" id="open">作成</button>
+
+    <ul>
+    </ul>
+
+    <footer>
+      <p>
+        使用方法<br>
+        作成ボタン：メモを作成します<br>
+        確認ボタン：メモの内容を確認します<br>
+        変更ボタン：メモの内容を変更します<br>
+        消去ボタン：メモを消去します
+      </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
