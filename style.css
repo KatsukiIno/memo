@@ -1,6 +1,6 @@
 header{
     width: auto;
-    background-color: rgb(165, 157, 157);
+    background-color: rgb(157, 203, 255);
     text-align: center;
     width: 100%;
 }
@@ -26,8 +26,8 @@ ul button {
 }
 
 body{
-    background-color: rgb(158, 245, 245);
-
+    background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 ul{
@@ -61,6 +61,7 @@ textarea{
 .create{
     display: flex;
     justify-content: center;
+    background-color: rgb(194, 254, 254);
     font-size: 150%;
 }
 
