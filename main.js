@@ -25,6 +25,7 @@ btn.onclick = function(){
     if(value == ''){
         value = 'タイトル未設定';
     }
+    
     listItem.appendChild(listText);
     listItem.appendChild(listBtn);
     listItem.appendChild(listBtn2);
